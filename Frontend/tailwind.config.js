@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-
+import daisyui from "daisyui"
 
 export default {
   content: [
@@ -11,6 +11,8 @@ export default {
   },
 
   // eslint-disable-next-line no-undef
-  plugins: [require('daisyui'),],
+  plugins: [
+    daisyui,
+  ],
 }
 
